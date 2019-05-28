@@ -1,82 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="scene">
-      <div class="cube">
-        <div class="cube__face cube__face--front">
-          <svg class="svg-face" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 177">
-            <line class="pattern1" x1="5" y1="5" x2="172" y2="5"/>
-            <line class="pattern1" x1="5" y1="172" x2="172" y2="172"/>
-            <line class="pattern1" x1="5" y1="5" x2="5" y2="172"/>
-            <line class="pattern1" x1="172" y1="5" x2="172" y2="172"/>
-            <line class="pattern2" x1="172" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="5" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="172" x2="88.5" y2="88.5"/>
-          </svg>
-        </div>
-        <div class="cube__face cube__face--back">
-          <svg class="svg-face" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 177">
-            <line class="pattern1" x1="5" y1="5" x2="172" y2="5"/>
-            <line class="pattern1" x1="5" y1="172" x2="172" y2="172"/>
-            <line class="pattern1" x1="5" y1="5" x2="5" y2="172"/>
-            <line class="pattern1" x1="172" y1="5" x2="172" y2="172"/>
-            <line class="pattern2" x1="172" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="5" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="172" x2="88.5" y2="88.5"/>
-          </svg>
-        </div>
-        <div class="cube__face cube__face--right">
-          <svg class="svg-face" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 177">
-            <line class="pattern1" x1="5" y1="5" x2="172" y2="5"/>
-            <line class="pattern1" x1="5" y1="172" x2="172" y2="172"/>
-            <line class="pattern1" x1="5" y1="5" x2="5" y2="172"/>
-            <line class="pattern1" x1="172" y1="5" x2="172" y2="172"/>
-            <line class="pattern2" x1="172" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="5" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="172" x2="88.5" y2="88.5"/>
-          </svg>
-        </div>
-        <div class="cube__face cube__face--left">
-          <svg class="svg-face" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 177">
-            <line class="pattern1" x1="5" y1="5" x2="172" y2="5"/>
-            <line class="pattern1" x1="5" y1="172" x2="172" y2="172"/>
-            <line class="pattern1" x1="5" y1="5" x2="5" y2="172"/>
-            <line class="pattern1" x1="172" y1="5" x2="172" y2="172"/>
-            <line class="pattern2" x1="172" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="5" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="172" x2="88.5" y2="88.5"/>
-          </svg>
-        </div>
-        <div class="cube__face cube__face--top">
-          <svg class="svg-face" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 177">
-            <line class="pattern1" x1="5" y1="5" x2="172" y2="5"/>
-            <line class="pattern1" x1="5" y1="172" x2="172" y2="172"/>
-            <line class="pattern1" x1="5" y1="5" x2="5" y2="172"/>
-            <line class="pattern1" x1="172" y1="5" x2="172" y2="172"/>
-            <line class="pattern2" x1="172" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="5" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="172" x2="88.5" y2="88.5"/>
-          </svg>
-        </div>
-        <div class="cube__face cube__face--bottom">
-          <svg class="svg-face" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 177">
-            <line class="pattern1" x1="5" y1="5" x2="172" y2="5"/>
-            <line class="pattern1" x1="5" y1="172" x2="172" y2="172"/>
-            <line class="pattern1" x1="5" y1="5" x2="5" y2="172"/>
-            <line class="pattern1" x1="172" y1="5" x2="172" y2="172"/>
-            <line class="pattern2" x1="172" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="5" y1="88.5" x2="88.5" y2="88.5"/>
-            <line class="pattern2" x1="88.5" y1="172" x2="88.5" y2="88.5"/>
-          </svg>
-        </div>
-      </div>
-    </div>
-    <a-carousel arrows dotsClass="slick-dots slick-thumb">
+    <a-carousel arrows dotsClass="container slick-dots slick-thumb">
       <a slot="customPaging" slot-scope="props">
         <img :src="getImgUrl(props.i)" />
       </a>
@@ -114,7 +38,9 @@ export default {
 </script>
 <style scoped>
 .wrapper{
-  margin-top: 150px;
+  padding-top: 1px;
+  /* background: #A6CDE2; */
+  background: linear-gradient(54deg, #9164ff, #8bfff4);
 }
 .desc{
   width: 60%;
@@ -125,7 +51,7 @@ export default {
 }
 .ant-carousel{
   height: 100vh;
-  margin: 80px 0;
+  margin: 80px 0 0 0;
 }
 .ant-carousel >>> .slick-dots {
   height: auto;
@@ -153,112 +79,5 @@ export default {
 }
  .slick-active img{
   border: 1px solid rgb(94, 94, 94);
-}
-.scene {
-  width: 20rem;
-  height: 20rem;
-  margin: 10rem auto;
-  perspective: 1200px;
-  position:absolute;
-  left:5rem;
-  top:-5rem;
-  z-index: -1;
-}
-.cube {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  font-weight: bold;
-  transform-style: preserve-3d;
-  animation: rotate 10s linear infinite;
-}
-.cube__face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  line-height: 20rem;
-  font-size: 3rem;
-  opacity: .8;
-}
-.cube__face--front {
-  background-color: transparent;
-  transform: rotateY(0deg) translateZ(10rem);
-}
-.cube__face--back {
-  background-color: transparent;
-  transform: rotateY(180deg) translateZ(10rem);
-}
-.cube__face--right {
-  background-color: transparent;
-  transform: rotateY(90deg) translateZ(10rem);
-}
-.cube__face--left {
-  background-color: transparent;
-  transform: rotateY(-90deg) translateZ(10rem);
-}
-.cube__face--top {
-  background-color: transparent;
-  transform: rotateX(90deg) translateZ(10rem);
-}
-.cube__face--bottom {
-  background-color: transparent;
-  transform: rotateX(-90deg) translateZ(10rem);
-}
-@keyframes rotate {
-  0% {
-    transform: rotate3d(1, 1, 0, 360deg);
-  }
-  50% {
-    transform: rotate3d(1, 1, 0, 180deg);
-  }
-  100% {
-    transform: rotate3d(0, 0, 0, 0);
-  }
-}
-svg {
-  width: 100%;
-}
-.svg-face {
-  fill:none;
-  stroke: hsl(0, 0%, 10%);
-  stroke-width: 10;
-  stroke-linecap:square;
-}
-.pattern1 {
-  stroke-dasharray: 0 167;
-  stroke-dashoffset: -83.5;
-  animation: pattern1 4s linear infinite; 
-}
-.pattern2 {
-  stroke-dasharray: 83.5;
-  stroke-dashoffset: 83.5;
-  animation: pattern2 4s linear infinite;
-}
-@keyframes pattern1 {
-  0% {
-    stroke-dasharray: 0 167;
-    stroke-dashoffset: -83.5;
-  }
-  25% {
-    stroke-dasharray: 167 167;
-    stroke-dashoffset: 0;
-  }
-  50%, 75%, 100% {
-    stroke-dasharray: 0 167;
-    stroke-dashoffset: -83.5;
-  }
-}
-@keyframes pattern2 {
-  0%, 25%, 50% {
-    stroke-dasharray: 83.5;
-    stroke-dashoffset: 83.5;
-  }
-  75% {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: 83.5;
-  }
 }
 </style>

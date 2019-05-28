@@ -175,7 +175,8 @@ export default {
 .wrapper{
     width: 100%;
     height: 725px;
-    background-color: #1B1B1B;
+    background: linear-gradient(54deg, #9164ff, #8bfff4);
+    /* background: #A6CDE2; */
     display: flex;
     justify-content: center;
     align-items: center;    /* opacity: 0.5; */

@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/components/index'
+import Index2 from '@/components/index2'
 import Main from '@/components/main'
 import Introduction from '@/components/Introduction'
 import CityGallery from '@/components/cityGallery'
@@ -18,7 +18,7 @@ export default new Router({
     },
     {
       path: '/index',
-      component: Index
+      component: Index2
     },
     {
       path: '/main',

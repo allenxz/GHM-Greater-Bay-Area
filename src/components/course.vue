@@ -154,6 +154,7 @@ export default {
 <style scoped>
   .timeline {
     font: normal 16px/1.5 'Titillium Web', sans-serif;
+    /* background: #A6CDE2; */
     background: linear-gradient(54deg, #9164ff, #8bfff4);
     color: #3c3f64;
     overflow-x: hidden;

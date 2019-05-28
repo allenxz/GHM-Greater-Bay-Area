@@ -77,7 +77,11 @@ export default {};
 <style scoped>
 .progress{
   height: 750px;
-  background: #A6CDE2;;
+  background: linear-gradient(54deg, #9164ff, #8bfff4);
+  /* background: #A6CDE2; */
+}
+.tab{
+  box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
 }
 .tab p{
   line-height: 30px;

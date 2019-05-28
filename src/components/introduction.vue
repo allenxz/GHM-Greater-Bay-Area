@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <div class="banner"></div>
     <!-- 基本介绍 start -->
     <div class="main-area">
