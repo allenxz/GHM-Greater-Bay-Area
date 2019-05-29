@@ -620,7 +620,7 @@ ul.no-bullet {
   -webkit-transform: rotate(14deg);
   -moz-transform: rotate(14deg);
   -o-transform: rotate(14deg);
-  transform: rotate(14deg);
+  transform: rotate(14deg); 
   top: 3px;
 }
 
